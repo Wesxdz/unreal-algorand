@@ -1,0 +1,97 @@
+[
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/Algorand/Source/Algorand/Algorand.Build.cs",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/Algorand.1.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/Algorand/Source/Algorand/Private/Algorand.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/Algorand.1.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/Algorand/Source/Algorand/Private/AlgorandBPLibrary.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/Algorand.1.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/Algorand/Source/Algorand/Public/Algorand.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/Algorand.1.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/Algorand/Source/Algorand/Public/AlgorandBPLibrary.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/Algorand.1.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Private/UnrealCLR.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Private/UnrealCLRFramework.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Private/UnrealCLRLibrary.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Private/UnrealCLRManager.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Public/UnrealCLR.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Public/UnrealCLRFramework.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Public/UnrealCLRLibrary.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/Public/UnrealCLRManager.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Plugins/UnrealCLR/Source/UnrealCLR/UnrealCLR.Build.cs",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/UnrealCLR.2.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Source/AlgorandDemo/AlgorandDemo.Build.cs",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/AlgorandDemo.178.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Source/AlgorandDemo/AlgorandDemo.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/AlgorandDemo.178.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Source/AlgorandDemo/AlgorandDemo.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/AlgorandDemo.178.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Source/AlgorandDemo/AlgorandDemoGameModeBase.cpp",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/AlgorandDemo.178.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/aeri/freelance/gitcoin/AlgorandDemo/Source/AlgorandDemo/AlgorandDemoGameModeBase.h",
+		"command": "/home/aeri/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default/AlgorandDemo.178.rsp\"",
+		"directory": "/home/aeri/git/UnrealEngine/Engine/Source"
+	}
+]

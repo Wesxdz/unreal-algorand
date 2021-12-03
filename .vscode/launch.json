@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "AlgorandDemo (Debug)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemo Linux Debug Build",
+			"program": "/home/aeri/freelance/gitcoin/AlgorandDemo/Binaries/Linux/AlgorandDemo-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemo (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemo Linux DebugGame Build",
+			"program": "/home/aeri/freelance/gitcoin/AlgorandDemo/Binaries/Linux/AlgorandDemo-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemo (Development)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemo Linux Development Build",
+			"program": "/home/aeri/freelance/gitcoin/AlgorandDemo/Binaries/Linux/AlgorandDemo",
+			"args": [
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemo (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemo Linux Shipping Build",
+			"program": "/home/aeri/freelance/gitcoin/AlgorandDemo/Binaries/Linux/AlgorandDemo-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemo (Test)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemo Linux Test Build",
+			"program": "/home/aeri/freelance/gitcoin/AlgorandDemo/Binaries/Linux/AlgorandDemo-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemoEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemoEditor Linux Debug Build",
+			"program": "/home/aeri/git/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject"
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemoEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemoEditor Linux DebugGame Build",
+			"program": "/home/aeri/git/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject"
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "AlgorandDemoEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "AlgorandDemoEditor Linux Development Build",
+			"program": "/home/aeri/git/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject"
+			],
+			"cwd": "/home/aeri/git/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/aeri/git/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/aeri/git/UnrealEngine"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+.kdev4
+.vscode
+Content
+DerivedDataCache
+Intermediate
+Managed
+Saved
+Script
+Plugins/Algorand/.git
+Plugins/Algorand/.vscode
+Plugins/Algorand/Content
+Plugins/Algorand/Intermediate
+Plugins/Algorand/Managed
+Plugins/UnrealCLR/.vscode
+Plugins/UnrealCLR/Intermediate
+Plugins/UnrealCLR/Managed
+Plugins/UnrealCLR/Runtime

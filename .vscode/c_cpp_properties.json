@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "AlgorandDemoEditor Editor Linux Development (AlgorandDemo)",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_AlgorandDemo.json",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        },
+        {
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/aeri/freelance/gitcoin/AlgorandDemo/.vscode/compileCommands_Default.json",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

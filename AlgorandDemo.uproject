@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004C0FE-08D9-8407-AE4D-8ADE7CC0C531}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AlgorandDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,2455 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AlgorandDemo Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Mac",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"IOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Cook",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemo Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemo Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Cook",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemo Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Cook",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemo Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Cook",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Build",
+				"AlgorandDemo Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Deploy",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/RunUAT.sh",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-Project=/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AlgorandDemo Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Android Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Android",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"Linux",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"LinuxAArch64",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Shipping",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemo TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemo TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemo",
+				"TVOS",
+				"Test",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Linux",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Debug",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AlgorandDemoEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		},
+		{
+			"label": "AlgorandDemoEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"AlgorandDemoEditor",
+				"Mac",
+				"Development",
+				"/home/aeri/freelance/gitcoin/AlgorandDemo/AlgorandDemo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/aeri/git/UnrealEngine"
+			}
+		}
+	]
+}

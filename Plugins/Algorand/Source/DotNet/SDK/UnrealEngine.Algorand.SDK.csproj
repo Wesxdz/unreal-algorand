@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>../../../Managed/SDK</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnrealEngine.Framework">
+      <HintPath>../Framework/bin/Release/UnrealEngine.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="algorand" Version="0.2.0.8" />
+  </ItemGroup>
+</Project>
