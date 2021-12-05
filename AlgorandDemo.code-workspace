@@ -7,6 +7,10 @@
 		{
 			"name": "UE4",
 			"path": "/home/aeri/git/UnrealEngine"
+		},
+		{
+			"name": "test",
+			"path": "../../../Documents/PlatformIO/Projects/test"
 		}
 	],
 	"settings": {

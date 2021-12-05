@@ -1,0 +1,2849 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UE4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemo-Debug-1dad190b7a8393967418.json",
+					"name" : "AlgorandDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemo-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemo-Linux-Debug-Debug-038dbd9e1231410e1537.json",
+					"name" : "AlgorandDemo-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemo-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemo-Linux-DebugGame-Debug-22093f345452f9eae5b0.json",
+					"name" : "AlgorandDemo-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemo-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemo-Linux-Shipping-Debug-921c832a9d19a51cdbd3.json",
+					"name" : "AlgorandDemo-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemo-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemo-Linux-Test-Debug-c8b915b09e442208aa61.json",
+					"name" : "AlgorandDemo-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemoEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemoEditor-Debug-6945dbf5dc826099f0b2.json",
+					"name" : "AlgorandDemoEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemoEditor-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemoEditor-Linux-Debug-Debug-295b4eb2063b0717a07f.json",
+					"name" : "AlgorandDemoEditor-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemoEditor-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemoEditor-Linux-DebugGame-Debug-4ad82bc3f5ae065c7246.json",
+					"name" : "AlgorandDemoEditor-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemoEditor-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemoEditor-Linux-Shipping-Debug-0e3eb0d95d97fee943eb.json",
+					"name" : "AlgorandDemoEditor-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlgorandDemoEditor-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlgorandDemoEditor-Linux-Test-Debug-c221a47a1f889347ae45.json",
+					"name" : "AlgorandDemoEditor-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BenchmarkTool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BenchmarkTool-Debug-9ddb055bd869835100d2.json",
+					"name" : "BenchmarkTool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BenchmarkTool-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BenchmarkTool-Linux-Debug-Debug-ada9189721fcd6e43c9a.json",
+					"name" : "BenchmarkTool-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BenchmarkTool-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BenchmarkTool-Linux-DebugGame-Debug-18d5bd836d5d94c895cf.json",
+					"name" : "BenchmarkTool-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BenchmarkTool-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BenchmarkTool-Linux-Shipping-Debug-3de7188ab2616a0d73f9.json",
+					"name" : "BenchmarkTool-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BenchmarkTool-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BenchmarkTool-Linux-Test-Debug-0d8e2fa4ed408c61da28.json",
+					"name" : "BenchmarkTool-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BlankProgram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlankProgram-Debug-b7512d28f71da04aaa47.json",
+					"name" : "BlankProgram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BlankProgram-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlankProgram-Linux-Debug-Debug-7279981e59feb09b1def.json",
+					"name" : "BlankProgram-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BlankProgram-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlankProgram-Linux-DebugGame-Debug-128a60d45042649e0b9e.json",
+					"name" : "BlankProgram-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BlankProgram-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlankProgram-Linux-Shipping-Debug-0edc3f234f302df0b31e.json",
+					"name" : "BlankProgram-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BlankProgram-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlankProgram-Linux-Test-Debug-55482a6973c9bd79eec4.json",
+					"name" : "BlankProgram-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BootstrapPackagedGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BootstrapPackagedGame-Debug-58b39e38dc7f18ad849f.json",
+					"name" : "BootstrapPackagedGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BootstrapPackagedGame-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BootstrapPackagedGame-Linux-Debug-Debug-1d885ecc9cc23806e46b.json",
+					"name" : "BootstrapPackagedGame-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BootstrapPackagedGame-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BootstrapPackagedGame-Linux-DebugGame-Debug-c2898712591788866620.json",
+					"name" : "BootstrapPackagedGame-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BootstrapPackagedGame-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BootstrapPackagedGame-Linux-Shipping-Debug-8a2ccded2b17ace26cdc.json",
+					"name" : "BootstrapPackagedGame-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BootstrapPackagedGame-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BootstrapPackagedGame-Linux-Test-Debug-15b8ce0f5e06b011d24f.json",
+					"name" : "BootstrapPackagedGame-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuildPatchTool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuildPatchTool-Debug-b96582eb61dd158a3a75.json",
+					"name" : "BuildPatchTool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuildPatchTool-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuildPatchTool-Linux-Debug-Debug-0ebefd87be89353da1b3.json",
+					"name" : "BuildPatchTool-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuildPatchTool-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuildPatchTool-Linux-DebugGame-Debug-49ec609d44b3e043322c.json",
+					"name" : "BuildPatchTool-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuildPatchTool-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuildPatchTool-Linux-Shipping-Debug-003140f6e00179a51191.json",
+					"name" : "BuildPatchTool-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuildPatchTool-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuildPatchTool-Linux-Test-Debug-3115f7fc390ea2d17317.json",
+					"name" : "BuildPatchTool-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChaosVisualDebugger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChaosVisualDebugger-Debug-6af85f35176103c16e7d.json",
+					"name" : "ChaosVisualDebugger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChaosVisualDebugger-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChaosVisualDebugger-Linux-Debug-Debug-6c23e79ba40351ee5573.json",
+					"name" : "ChaosVisualDebugger-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChaosVisualDebugger-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChaosVisualDebugger-Linux-DebugGame-Debug-b340eed5503c53191b19.json",
+					"name" : "ChaosVisualDebugger-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChaosVisualDebugger-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChaosVisualDebugger-Linux-Shipping-Debug-9d1749820d640aaa91cc.json",
+					"name" : "ChaosVisualDebugger-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChaosVisualDebugger-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChaosVisualDebugger-Linux-Test-Debug-9248b89135266e3d82a3.json",
+					"name" : "ChaosVisualDebugger-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClient-Debug-3dfb9424e8c852576ff9.json",
+					"name" : "CrashReportClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClient-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClient-Linux-Debug-Debug-6a26a411fa356f395fd0.json",
+					"name" : "CrashReportClient-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClient-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClient-Linux-DebugGame-Debug-ad346c0a0cc714f1859e.json",
+					"name" : "CrashReportClient-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClient-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClient-Linux-Shipping-Debug-93782461cbeea84ca6f4.json",
+					"name" : "CrashReportClient-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClient-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClient-Linux-Test-Debug-ebfb3a90ff1befd835dc.json",
+					"name" : "CrashReportClient-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClientEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClientEditor-Debug-ebdfb4bd5f7d0a3d067c.json",
+					"name" : "CrashReportClientEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClientEditor-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClientEditor-Linux-Debug-Debug-a9003b1cc09fb9e66488.json",
+					"name" : "CrashReportClientEditor-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClientEditor-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClientEditor-Linux-DebugGame-Debug-1fb264b9723f2e65f88f.json",
+					"name" : "CrashReportClientEditor-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClientEditor-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClientEditor-Linux-Shipping-Debug-8a7b3bdfd6392bb4ca19.json",
+					"name" : "CrashReportClientEditor-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrashReportClientEditor-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrashReportClientEditor-Linux-Test-Debug-ab5f1261ea66e6e30baa.json",
+					"name" : "CrashReportClientEditor-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithArchiCAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithArchiCAD-Debug-586246c4d37b681b4d09.json",
+					"name" : "DatasmithArchiCAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithArchiCAD-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithArchiCAD-Linux-Debug-Debug-352b398da7def57c14f5.json",
+					"name" : "DatasmithArchiCAD-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithArchiCAD-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithArchiCAD-Linux-DebugGame-Debug-8ce0962ee3a44a945a98.json",
+					"name" : "DatasmithArchiCAD-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithArchiCAD-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithArchiCAD-Linux-Shipping-Debug-b69df731971eaf5dc6de.json",
+					"name" : "DatasmithArchiCAD-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithArchiCAD-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithArchiCAD-Linux-Test-Debug-32b63f7a662dcdda5b93.json",
+					"name" : "DatasmithArchiCAD-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithCADWorker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithCADWorker-Debug-45da8a3aa4420e8792b5.json",
+					"name" : "DatasmithCADWorker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithCADWorker-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithCADWorker-Linux-Debug-Debug-1992ef80c27d7e1038ad.json",
+					"name" : "DatasmithCADWorker-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithCADWorker-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithCADWorker-Linux-DebugGame-Debug-8090de1427c415c08e80.json",
+					"name" : "DatasmithCADWorker-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithCADWorker-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithCADWorker-Linux-Shipping-Debug-d2ff97be254a51874769.json",
+					"name" : "DatasmithCADWorker-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithCADWorker-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithCADWorker-Linux-Test-Debug-d3a7ddb0c3cadc3abe24.json",
+					"name" : "DatasmithCADWorker-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithFacadeCSharp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithFacadeCSharp-Debug-e42a3a44e8359aab5cd0.json",
+					"name" : "DatasmithFacadeCSharp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithFacadeCSharp-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithFacadeCSharp-Linux-Debug-Debug-0b41a7354cce81203e0e.json",
+					"name" : "DatasmithFacadeCSharp-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithFacadeCSharp-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithFacadeCSharp-Linux-DebugGame-Debug-2cb62160cebadfedbed2.json",
+					"name" : "DatasmithFacadeCSharp-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithFacadeCSharp-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithFacadeCSharp-Linux-Shipping-Debug-60aa794038cebea16a04.json",
+					"name" : "DatasmithFacadeCSharp-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithFacadeCSharp-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithFacadeCSharp-Linux-Test-Debug-660bbd9d87e91139a58a.json",
+					"name" : "DatasmithFacadeCSharp-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2016::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2016-Debug-0b0adb9226650470508b.json",
+					"name" : "DatasmithMax2016",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2016-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2016-Linux-Debug-Debug-129b893c03992eadae7d.json",
+					"name" : "DatasmithMax2016-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2016-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2016-Linux-DebugGame-Debug-577b61c0cd5ded1ca326.json",
+					"name" : "DatasmithMax2016-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2016-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2016-Linux-Shipping-Debug-0582f118f55cdf863523.json",
+					"name" : "DatasmithMax2016-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2016-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2016-Linux-Test-Debug-3564452b8bbae33a3fc9.json",
+					"name" : "DatasmithMax2016-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2017::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2017-Debug-58eb50457308ae27d993.json",
+					"name" : "DatasmithMax2017",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2017-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2017-Linux-Debug-Debug-94896b86f6e762f7545c.json",
+					"name" : "DatasmithMax2017-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2017-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2017-Linux-DebugGame-Debug-2dd3de39198e2427160d.json",
+					"name" : "DatasmithMax2017-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2017-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2017-Linux-Shipping-Debug-ab47544b21cf3c184b26.json",
+					"name" : "DatasmithMax2017-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2017-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2017-Linux-Test-Debug-8f3f93e7fd690f87dc00.json",
+					"name" : "DatasmithMax2017-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2018::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2018-Debug-ff391511435b6dd1ac52.json",
+					"name" : "DatasmithMax2018",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2018-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2018-Linux-Debug-Debug-5352eed444ad36b3136b.json",
+					"name" : "DatasmithMax2018-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2018-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2018-Linux-DebugGame-Debug-52b94afa5dcaa912c8c8.json",
+					"name" : "DatasmithMax2018-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2018-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2018-Linux-Shipping-Debug-e8f47c49aae63670c7cf.json",
+					"name" : "DatasmithMax2018-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2018-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2018-Linux-Test-Debug-9b803e8bb0659bffcde5.json",
+					"name" : "DatasmithMax2018-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2019::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2019-Debug-29faa1030905dca824fa.json",
+					"name" : "DatasmithMax2019",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2019-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2019-Linux-Debug-Debug-09b7f32c5b19e3c6d1cc.json",
+					"name" : "DatasmithMax2019-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2019-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2019-Linux-DebugGame-Debug-502634ccf350105cfb1c.json",
+					"name" : "DatasmithMax2019-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2019-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2019-Linux-Shipping-Debug-b2aa06d5a66c9297cc5d.json",
+					"name" : "DatasmithMax2019-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2019-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2019-Linux-Test-Debug-d11a72490144af0f02a4.json",
+					"name" : "DatasmithMax2019-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2020-Debug-49382b5ec8ca4333ec00.json",
+					"name" : "DatasmithMax2020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2020-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2020-Linux-Debug-Debug-0e77fceffe54fbeeaab1.json",
+					"name" : "DatasmithMax2020-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2020-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2020-Linux-DebugGame-Debug-ca56ef9e7b6feb4f9638.json",
+					"name" : "DatasmithMax2020-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2020-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2020-Linux-Shipping-Debug-96305be1ad85c67f79ca.json",
+					"name" : "DatasmithMax2020-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2020-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2020-Linux-Test-Debug-90355b6cb94fa3124450.json",
+					"name" : "DatasmithMax2020-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2021-Debug-581c33acc86f54666ba7.json",
+					"name" : "DatasmithMax2021",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2021-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2021-Linux-Debug-Debug-93380a0991ee10e8e858.json",
+					"name" : "DatasmithMax2021-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2021-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2021-Linux-DebugGame-Debug-4dc3cdb0c5197fba4b9f.json",
+					"name" : "DatasmithMax2021-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2021-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2021-Linux-Shipping-Debug-029cd174fb41c3ab36d3.json",
+					"name" : "DatasmithMax2021-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2021-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2021-Linux-Test-Debug-e2a60c7edad31e51fdc8.json",
+					"name" : "DatasmithMax2021-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2022::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2022-Debug-c5a8478519b140d1188e.json",
+					"name" : "DatasmithMax2022",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2022-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2022-Linux-Debug-Debug-1e5a3931b5595bdeb509.json",
+					"name" : "DatasmithMax2022-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2022-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2022-Linux-DebugGame-Debug-a28c89837cfad882b64c.json",
+					"name" : "DatasmithMax2022-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2022-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2022-Linux-Shipping-Debug-a42f6c3e5bc86e346877.json",
+					"name" : "DatasmithMax2022-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithMax2022-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithMax2022-Linux-Test-Debug-d68d4d172ca88e9f76d4.json",
+					"name" : "DatasmithMax2022-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2019::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2019-Debug-3ded7a08f6564ae84379.json",
+					"name" : "DatasmithNavisworks2019",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2019-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2019-Linux-Debug-Debug-a9168d4bacb042e411c6.json",
+					"name" : "DatasmithNavisworks2019-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2019-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2019-Linux-DebugGame-Debug-a6380a7f4a97566459e8.json",
+					"name" : "DatasmithNavisworks2019-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2019-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2019-Linux-Shipping-Debug-978a92fd3b9cd048db25.json",
+					"name" : "DatasmithNavisworks2019-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2019-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2019-Linux-Test-Debug-946cea5b011faa4e4bd5.json",
+					"name" : "DatasmithNavisworks2019-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2020-Debug-dd7da7f1ca74ea7d50c8.json",
+					"name" : "DatasmithNavisworks2020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2020-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2020-Linux-Debug-Debug-ad39c81c4013e29941a7.json",
+					"name" : "DatasmithNavisworks2020-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2020-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2020-Linux-DebugGame-Debug-d37177e32491d829801d.json",
+					"name" : "DatasmithNavisworks2020-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2020-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2020-Linux-Shipping-Debug-3d341e0603e1a47a0e78.json",
+					"name" : "DatasmithNavisworks2020-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2020-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2020-Linux-Test-Debug-68b2e6d627d018f948d1.json",
+					"name" : "DatasmithNavisworks2020-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2021-Debug-6fa0519b8242d4016814.json",
+					"name" : "DatasmithNavisworks2021",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2021-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2021-Linux-Debug-Debug-5f403a041a53bd18fae5.json",
+					"name" : "DatasmithNavisworks2021-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2021-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2021-Linux-DebugGame-Debug-3cdb3675586c32766640.json",
+					"name" : "DatasmithNavisworks2021-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2021-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2021-Linux-Shipping-Debug-c16682f009226d6ce362.json",
+					"name" : "DatasmithNavisworks2021-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2021-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2021-Linux-Test-Debug-09494f18a596149eca51.json",
+					"name" : "DatasmithNavisworks2021-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2022::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2022-Debug-f714851120f038b69e33.json",
+					"name" : "DatasmithNavisworks2022",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2022-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2022-Linux-Debug-Debug-79ead1862acb3d0df643.json",
+					"name" : "DatasmithNavisworks2022-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2022-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2022-Linux-DebugGame-Debug-138944537875d3b403e5.json",
+					"name" : "DatasmithNavisworks2022-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2022-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2022-Linux-Shipping-Debug-3cf2bdcb6266b3f635b0.json",
+					"name" : "DatasmithNavisworks2022-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithNavisworks2022-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithNavisworks2022-Linux-Test-Debug-c19fe5ad44dd066441e1.json",
+					"name" : "DatasmithNavisworks2022-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2018::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2018-Debug-7bfe7a0b4060722f829a.json",
+					"name" : "DatasmithRevit2018",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2018-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2018-Linux-Debug-Debug-ed79de11cd729b4c118b.json",
+					"name" : "DatasmithRevit2018-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2018-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2018-Linux-DebugGame-Debug-467a3261c4a2591aaf7c.json",
+					"name" : "DatasmithRevit2018-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2018-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2018-Linux-Shipping-Debug-79e7fc98b3140919b499.json",
+					"name" : "DatasmithRevit2018-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2018-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2018-Linux-Test-Debug-d50af6344a3734b2fb01.json",
+					"name" : "DatasmithRevit2018-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2019::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2019-Debug-a156b499f7dd0e041724.json",
+					"name" : "DatasmithRevit2019",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2019-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2019-Linux-Debug-Debug-b709ff9599281039694a.json",
+					"name" : "DatasmithRevit2019-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2019-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2019-Linux-DebugGame-Debug-05d35958ffb9a95af595.json",
+					"name" : "DatasmithRevit2019-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2019-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2019-Linux-Shipping-Debug-80354bc5731d7a80cb79.json",
+					"name" : "DatasmithRevit2019-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2019-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2019-Linux-Test-Debug-d170eac0044bffb5c1ca.json",
+					"name" : "DatasmithRevit2019-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2020-Debug-9d471d6630ec26e76b15.json",
+					"name" : "DatasmithRevit2020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2020-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2020-Linux-Debug-Debug-39a497cb049e386f41db.json",
+					"name" : "DatasmithRevit2020-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2020-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2020-Linux-DebugGame-Debug-ca5a717bc7cc800ca0d0.json",
+					"name" : "DatasmithRevit2020-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2020-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2020-Linux-Shipping-Debug-434be2039458bd50fae0.json",
+					"name" : "DatasmithRevit2020-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2020-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2020-Linux-Test-Debug-ea9815a9b872dbd2ae4e.json",
+					"name" : "DatasmithRevit2020-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2021-Debug-007ccd701eab57e9daeb.json",
+					"name" : "DatasmithRevit2021",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2021-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2021-Linux-Debug-Debug-4c59635a94a3a5442173.json",
+					"name" : "DatasmithRevit2021-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2021-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2021-Linux-DebugGame-Debug-81ee9cd08d49599c8540.json",
+					"name" : "DatasmithRevit2021-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2021-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2021-Linux-Shipping-Debug-f62b54d0013abb200116.json",
+					"name" : "DatasmithRevit2021-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2021-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2021-Linux-Test-Debug-f918ac8ccdd9301e3620.json",
+					"name" : "DatasmithRevit2021-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2022::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2022-Debug-24719f75f85379baabc7.json",
+					"name" : "DatasmithRevit2022",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2022-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2022-Linux-Debug-Debug-9e60c202e7a6558fad75.json",
+					"name" : "DatasmithRevit2022-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2022-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2022-Linux-DebugGame-Debug-f338d073bf9ad8e6fc2f.json",
+					"name" : "DatasmithRevit2022-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2022-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2022-Linux-Shipping-Debug-8f7858c88a92e5bd0baa.json",
+					"name" : "DatasmithRevit2022-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRevit2022-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRevit2022-Linux-Test-Debug-5bedf29d78b83ca00af5.json",
+					"name" : "DatasmithRevit2022-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino6-Debug-1a87ed170a1068e40b8f.json",
+					"name" : "DatasmithRhino6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino6-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino6-Linux-Debug-Debug-9267e25e86b69093c25c.json",
+					"name" : "DatasmithRhino6-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino6-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino6-Linux-DebugGame-Debug-7ded13073da20643c860.json",
+					"name" : "DatasmithRhino6-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino6-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino6-Linux-Shipping-Debug-35370c96249af8e42f66.json",
+					"name" : "DatasmithRhino6-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino6-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino6-Linux-Test-Debug-a74e542a454a3ac83261.json",
+					"name" : "DatasmithRhino6-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino7-Debug-9453b701a45ddd53f6d4.json",
+					"name" : "DatasmithRhino7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino7-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino7-Linux-Debug-Debug-ed7bd16f951a4ecee43f.json",
+					"name" : "DatasmithRhino7-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino7-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino7-Linux-DebugGame-Debug-a8d592d8d8ce50a943d8.json",
+					"name" : "DatasmithRhino7-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino7-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino7-Linux-Shipping-Debug-9163327c1ef2c951521f.json",
+					"name" : "DatasmithRhino7-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithRhino7-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithRhino7-Linux-Test-Debug-180b322884f2686a9dfc.json",
+					"name" : "DatasmithRhino7-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSDK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSDK-Debug-491f1015612e5fd20a48.json",
+					"name" : "DatasmithSDK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSDK-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSDK-Linux-Debug-Debug-e7edc70a9e15f66e2938.json",
+					"name" : "DatasmithSDK-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSDK-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSDK-Linux-DebugGame-Debug-51110f1d04538ef872f6.json",
+					"name" : "DatasmithSDK-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSDK-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSDK-Linux-Shipping-Debug-006c16c99158043b3315.json",
+					"name" : "DatasmithSDK-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSDK-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSDK-Linux-Test-Debug-a9c0bfa8b6835be0b4b4.json",
+					"name" : "DatasmithSDK-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2019::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2019-Debug-7cead83770dde353f673.json",
+					"name" : "DatasmithSketchUpRuby2019",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2019-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2019-Linux-Debug-Debug-64f7258380e688516d74.json",
+					"name" : "DatasmithSketchUpRuby2019-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2019-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2019-Linux-DebugGame-Debug-848a66b3e63bfc7a023c.json",
+					"name" : "DatasmithSketchUpRuby2019-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2019-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2019-Linux-Shipping-Debug-c2e6c61691cc2a3f328d.json",
+					"name" : "DatasmithSketchUpRuby2019-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2019-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2019-Linux-Test-Debug-135cbf5149dc1ff4fa24.json",
+					"name" : "DatasmithSketchUpRuby2019-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2020-Debug-2e3520c0b69953099a24.json",
+					"name" : "DatasmithSketchUpRuby2020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2020-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2020-Linux-Debug-Debug-09a53bcb7e090ac05d1a.json",
+					"name" : "DatasmithSketchUpRuby2020-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2020-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2020-Linux-DebugGame-Debug-06073b2493d2432d28d0.json",
+					"name" : "DatasmithSketchUpRuby2020-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2020-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2020-Linux-Shipping-Debug-81f15d28ac8b16402d6b.json",
+					"name" : "DatasmithSketchUpRuby2020-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2020-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2020-Linux-Test-Debug-af8af03e58e65abb5014.json",
+					"name" : "DatasmithSketchUpRuby2020-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2021-Debug-5db5647703220b19b985.json",
+					"name" : "DatasmithSketchUpRuby2021",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2021-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2021-Linux-Debug-Debug-9c88bdc53f80b62177c0.json",
+					"name" : "DatasmithSketchUpRuby2021-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2021-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2021-Linux-DebugGame-Debug-e998eaa73adbcef0df3a.json",
+					"name" : "DatasmithSketchUpRuby2021-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2021-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2021-Linux-Shipping-Debug-7f2f502a33712d774e63.json",
+					"name" : "DatasmithSketchUpRuby2021-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSketchUpRuby2021-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSketchUpRuby2021-Linux-Test-Debug-198d9c363919302d7b68.json",
+					"name" : "DatasmithSketchUpRuby2021-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSolidworks2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSolidworks2021-Debug-019cad4b8f90ea357508.json",
+					"name" : "DatasmithSolidworks2021",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSolidworks2021-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSolidworks2021-Linux-Debug-Debug-8b74539b6632469aca75.json",
+					"name" : "DatasmithSolidworks2021-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSolidworks2021-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSolidworks2021-Linux-DebugGame-Debug-60d1dfe672b2d31e8ca2.json",
+					"name" : "DatasmithSolidworks2021-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSolidworks2021-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSolidworks2021-Linux-Shipping-Debug-56d70648dcb374ee0255.json",
+					"name" : "DatasmithSolidworks2021-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithSolidworks2021-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithSolidworks2021-Linux-Test-Debug-43961577c0ff0d9c9ea2.json",
+					"name" : "DatasmithSolidworks2021-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithUE4ArchiCAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithUE4ArchiCAD-Debug-6cb5cd152d654850b53b.json",
+					"name" : "DatasmithUE4ArchiCAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithUE4ArchiCAD-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithUE4ArchiCAD-Linux-Debug-Debug-32043556e33d8a68832a.json",
+					"name" : "DatasmithUE4ArchiCAD-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithUE4ArchiCAD-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithUE4ArchiCAD-Linux-DebugGame-Debug-33652df360d1db8fc309.json",
+					"name" : "DatasmithUE4ArchiCAD-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithUE4ArchiCAD-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithUE4ArchiCAD-Linux-Shipping-Debug-bcbd62336fa51cf00503.json",
+					"name" : "DatasmithUE4ArchiCAD-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DatasmithUE4ArchiCAD-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DatasmithUE4ArchiCAD-Linux-Test-Debug-2c44405d2f49f70a8de1.json",
+					"name" : "DatasmithUE4ArchiCAD-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DsymExporter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DsymExporter-Debug-84f93f668ce9a162ae7c.json",
+					"name" : "DsymExporter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DsymExporter-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DsymExporter-Linux-Debug-Debug-da5d6822b55b545cbd9a.json",
+					"name" : "DsymExporter-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DsymExporter-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DsymExporter-Linux-DebugGame-Debug-63ffb816bd46a219ac74.json",
+					"name" : "DsymExporter-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DsymExporter-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DsymExporter-Linux-Shipping-Debug-0c62da698d1b989995db.json",
+					"name" : "DsymExporter-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DsymExporter-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DsymExporter-Linux-Test-Debug-6f0809596dcb62211ecb.json",
+					"name" : "DsymExporter-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FakeTarget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FakeTarget-Debug-3c8d3a9a03454e4690b9.json",
+					"name" : "FakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaos-Debug-b2bc5f98c0842e6afbfd.json",
+					"name" : "HeadlessChaos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaos-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaos-Linux-Debug-Debug-eb240db16419a935dcc7.json",
+					"name" : "HeadlessChaos-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaos-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaos-Linux-DebugGame-Debug-ec62da2c25c307918c6c.json",
+					"name" : "HeadlessChaos-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaos-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaos-Linux-Shipping-Debug-b48d65363d80d47739f1.json",
+					"name" : "HeadlessChaos-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaos-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaos-Linux-Test-Debug-5af8b217754d9dcbeaf9.json",
+					"name" : "HeadlessChaos-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaosPerf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaosPerf-Debug-17aa74f707ad7ebb2326.json",
+					"name" : "HeadlessChaosPerf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaosPerf-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaosPerf-Linux-Debug-Debug-058189978883e1405c7f.json",
+					"name" : "HeadlessChaosPerf-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaosPerf-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaosPerf-Linux-DebugGame-Debug-c934e2b0b6201ea42176.json",
+					"name" : "HeadlessChaosPerf-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaosPerf-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaosPerf-Linux-Shipping-Debug-f3420f2269e83e7626e6.json",
+					"name" : "HeadlessChaosPerf-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HeadlessChaosPerf-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HeadlessChaosPerf-Linux-Test-Debug-a98342de75999bf5c9f9.json",
+					"name" : "HeadlessChaosPerf-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiveCodingConsole::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiveCodingConsole-Debug-3adae6358743a5629350.json",
+					"name" : "LiveCodingConsole",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiveCodingConsole-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiveCodingConsole-Linux-Debug-Debug-23f31c6b0b66c9a0b5ed.json",
+					"name" : "LiveCodingConsole-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiveCodingConsole-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiveCodingConsole-Linux-DebugGame-Debug-dabda3779588bce44757.json",
+					"name" : "LiveCodingConsole-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiveCodingConsole-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiveCodingConsole-Linux-Shipping-Debug-599e09518b67d9c08783.json",
+					"name" : "LiveCodingConsole-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiveCodingConsole-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiveCodingConsole-Linux-Test-Debug-4b1fcfc7daf003deb99c.json",
+					"name" : "LiveCodingConsole-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShaderCompileWorker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShaderCompileWorker-Debug-51014358594f0d88ecbd.json",
+					"name" : "ShaderCompileWorker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShaderCompileWorker-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShaderCompileWorker-Linux-Debug-Debug-906c9a27f098ee7e7269.json",
+					"name" : "ShaderCompileWorker-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShaderCompileWorker-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShaderCompileWorker-Linux-DebugGame-Debug-cb9baf6be3d92ee83e33.json",
+					"name" : "ShaderCompileWorker-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShaderCompileWorker-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShaderCompileWorker-Linux-Shipping-Debug-04a30e513a7caa8b2c8f.json",
+					"name" : "ShaderCompileWorker-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShaderCompileWorker-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShaderCompileWorker-Linux-Test-Debug-b26932dbad74d9f59890.json",
+					"name" : "ShaderCompileWorker-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SlateViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SlateViewer-Debug-cbfc83c5b21b511d798e.json",
+					"name" : "SlateViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SlateViewer-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SlateViewer-Linux-Debug-Debug-6c393a64d84daf1bc152.json",
+					"name" : "SlateViewer-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SlateViewer-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SlateViewer-Linux-DebugGame-Debug-afd3f2d7f1b4fbae633c.json",
+					"name" : "SlateViewer-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SlateViewer-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SlateViewer-Linux-Shipping-Debug-d1c78db1b987ebfb2c6f.json",
+					"name" : "SlateViewer-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SlateViewer-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SlateViewer-Linux-Test-Debug-3fababfacbcb1291e628.json",
+					"name" : "SlateViewer-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchboardListener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchboardListener-Debug-8c00ea6d57f8231f3a41.json",
+					"name" : "SwitchboardListener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchboardListener-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchboardListener-Linux-Debug-Debug-a69300459a444fc2acf8.json",
+					"name" : "SwitchboardListener-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchboardListener-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchboardListener-Linux-DebugGame-Debug-fd4f6485313b20b63bc8.json",
+					"name" : "SwitchboardListener-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchboardListener-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchboardListener-Linux-Shipping-Debug-309992ea4f4a59bca015.json",
+					"name" : "SwitchboardListener-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SwitchboardListener-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SwitchboardListener-Linux-Test-Debug-94bbb59838a7ffe052b1.json",
+					"name" : "SwitchboardListener-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestPAL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestPAL-Debug-5e3635d6bba4cdef27ed.json",
+					"name" : "TestPAL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestPAL-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestPAL-Linux-Debug-Debug-419b70ddb5feba2db600.json",
+					"name" : "TestPAL-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestPAL-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestPAL-Linux-DebugGame-Debug-daeb9318c851eeaab24a.json",
+					"name" : "TestPAL-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestPAL-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestPAL-Linux-Shipping-Debug-ff1a7b85287971fee0cb.json",
+					"name" : "TestPAL-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestPAL-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestPAL-Linux-Test-Debug-57de1cff2d3f7a4407c3.json",
+					"name" : "TestPAL-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextureShareSDK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextureShareSDK-Debug-a2e65277ecf509f06b51.json",
+					"name" : "TextureShareSDK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextureShareSDK-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextureShareSDK-Linux-Debug-Debug-a24b5998fa1c1de78f65.json",
+					"name" : "TextureShareSDK-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextureShareSDK-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextureShareSDK-Linux-DebugGame-Debug-3d630c11f0a15f87ce59.json",
+					"name" : "TextureShareSDK-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextureShareSDK-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextureShareSDK-Linux-Shipping-Debug-2db532347cd59bd33e57.json",
+					"name" : "TextureShareSDK-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TextureShareSDK-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TextureShareSDK-Linux-Test-Debug-8a4853d1163c4d850e81.json",
+					"name" : "TextureShareSDK-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Client-Debug-c1ab6005cebffde98314.json",
+					"name" : "UE4Client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Client-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Client-Linux-Debug-Debug-e807fcfda13fa86d2035.json",
+					"name" : "UE4Client-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Client-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Client-Linux-DebugGame-Debug-f5e8b5aa23dd2d0e9e48.json",
+					"name" : "UE4Client-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Client-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Client-Linux-Shipping-Debug-12270d39271aab8ed340.json",
+					"name" : "UE4Client-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Client-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Client-Linux-Test-Debug-7c4f3eb4ff3df9d15c00.json",
+					"name" : "UE4Client-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Debug-e5254655ecec5d31c2e0.json",
+					"name" : "UE4Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Linux-Debug-Debug-3beaeb039d1e8f4e4b99.json",
+					"name" : "UE4Editor-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Linux-DebugGame-Debug-57e1476a4e24cd91fa4f.json",
+					"name" : "UE4Editor-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Linux-Shipping-Debug-e72eaf419460c09280ed.json",
+					"name" : "UE4Editor-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Linux-Test-Debug-fccdb52b2263d8d1c01f.json",
+					"name" : "UE4Editor-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4EditorServices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4EditorServices-Debug-c89c2adbcde90d6b3fdc.json",
+					"name" : "UE4EditorServices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4EditorServices-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4EditorServices-Linux-Debug-Debug-0aaf9491b9afc85e4541.json",
+					"name" : "UE4EditorServices-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4EditorServices-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4EditorServices-Linux-DebugGame-Debug-3394f2029551095ab72f.json",
+					"name" : "UE4EditorServices-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4EditorServices-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4EditorServices-Linux-Shipping-Debug-02d2860e37281292ca05.json",
+					"name" : "UE4EditorServices-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4EditorServices-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4EditorServices-Linux-Test-Debug-5ecabe1a2e2b5222c300.json",
+					"name" : "UE4EditorServices-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Debug-79c4314eee67275c1be8.json",
+					"name" : "UE4Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Linux-Debug-Debug-779224fc2c4f84ddd35e.json",
+					"name" : "UE4Game-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Linux-DebugGame-Debug-5b36b21d13cb04c119f1.json",
+					"name" : "UE4Game-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Linux-Shipping-Debug-b703e8c6b00875b85fee.json",
+					"name" : "UE4Game-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Linux-Test-Debug-1352d382ebd62ef6f004.json",
+					"name" : "UE4Game-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Server-Debug-019c48910225f70e1cad.json",
+					"name" : "UE4Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Server-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Server-Linux-Debug-Debug-c54f85f4781982e1cc9e.json",
+					"name" : "UE4Server-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Server-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Server-Linux-DebugGame-Debug-76a51115c1666bd54d19.json",
+					"name" : "UE4Server-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Server-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Server-Linux-Shipping-Debug-a1640420e6327fd8e3a0.json",
+					"name" : "UE4Server-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Server-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Server-Linux-Test-Debug-eb5df270bf6401167b2b.json",
+					"name" : "UE4Server-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealAtoS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealAtoS-Debug-e074f6ac5aab51b587b6.json",
+					"name" : "UnrealAtoS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealAtoS-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealAtoS-Linux-Debug-Debug-79f63c52a369a6c40bd6.json",
+					"name" : "UnrealAtoS-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealAtoS-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealAtoS-Linux-DebugGame-Debug-2f098704171effcf6364.json",
+					"name" : "UnrealAtoS-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealAtoS-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealAtoS-Linux-Shipping-Debug-73f57390cd4b72573193.json",
+					"name" : "UnrealAtoS-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealAtoS-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealAtoS-Linux-Test-Debug-d46451c9687eb5597f8c.json",
+					"name" : "UnrealAtoS-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealCEFSubProcess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealCEFSubProcess-Debug-174ef354df0e0c06fac1.json",
+					"name" : "UnrealCEFSubProcess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealCEFSubProcess-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealCEFSubProcess-Linux-Debug-Debug-c73d3b4532bc76af3a3a.json",
+					"name" : "UnrealCEFSubProcess-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealCEFSubProcess-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealCEFSubProcess-Linux-DebugGame-Debug-66eebf12acf80bdad14f.json",
+					"name" : "UnrealCEFSubProcess-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealCEFSubProcess-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealCEFSubProcess-Linux-Shipping-Debug-afb5395d19bc1373d31d.json",
+					"name" : "UnrealCEFSubProcess-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealCEFSubProcess-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealCEFSubProcess-Linux-Test-Debug-a0eb60dfdb76045c36d6.json",
+					"name" : "UnrealCEFSubProcess-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFileServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFileServer-Debug-8d369f45589d756c72ec.json",
+					"name" : "UnrealFileServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFileServer-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFileServer-Linux-Debug-Debug-33bc981d24d4a81559d9.json",
+					"name" : "UnrealFileServer-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFileServer-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFileServer-Linux-DebugGame-Debug-f4ca5603f9f3ed747754.json",
+					"name" : "UnrealFileServer-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFileServer-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFileServer-Linux-Shipping-Debug-e0f45ecf2ad6fcaffd1b.json",
+					"name" : "UnrealFileServer-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFileServer-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFileServer-Linux-Test-Debug-f9e2a25a8e97b7fa547d.json",
+					"name" : "UnrealFileServer-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFrontend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFrontend-Debug-2f2650253f02182e1f93.json",
+					"name" : "UnrealFrontend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFrontend-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFrontend-Linux-Debug-Debug-274fa3339918942abab5.json",
+					"name" : "UnrealFrontend-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFrontend-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFrontend-Linux-DebugGame-Debug-c8796246f31a08ad9a31.json",
+					"name" : "UnrealFrontend-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFrontend-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFrontend-Linux-Shipping-Debug-16f8f1c17c60b1b65d95.json",
+					"name" : "UnrealFrontend-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealFrontend-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealFrontend-Linux-Test-Debug-a4da4a5d561b3989f9af.json",
+					"name" : "UnrealFrontend-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealHeaderTool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealHeaderTool-Debug-690b6e0d9e6e387bed13.json",
+					"name" : "UnrealHeaderTool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealHeaderTool-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealHeaderTool-Linux-Debug-Debug-ce30b75fe3bbdf904580.json",
+					"name" : "UnrealHeaderTool-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealHeaderTool-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealHeaderTool-Linux-DebugGame-Debug-10517d4e5f5056880770.json",
+					"name" : "UnrealHeaderTool-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealHeaderTool-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealHeaderTool-Linux-Shipping-Debug-68fbe490ab70199f1c0e.json",
+					"name" : "UnrealHeaderTool-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealHeaderTool-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealHeaderTool-Linux-Test-Debug-0d2e347ac11462e049f7.json",
+					"name" : "UnrealHeaderTool-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealInsights::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealInsights-Debug-76b4ba29dfce82838bd6.json",
+					"name" : "UnrealInsights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealInsights-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealInsights-Linux-Debug-Debug-aa2d05c45d5428dbccab.json",
+					"name" : "UnrealInsights-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealInsights-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealInsights-Linux-DebugGame-Debug-a8a7e36e281e0129661c.json",
+					"name" : "UnrealInsights-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealInsights-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealInsights-Linux-Shipping-Debug-954cc519c761bc6b78f3.json",
+					"name" : "UnrealInsights-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealInsights-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealInsights-Linux-Test-Debug-c99e1efbb071008fb737.json",
+					"name" : "UnrealInsights-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLaunchDaemon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLaunchDaemon-Debug-07626a1608443a655a8f.json",
+					"name" : "UnrealLaunchDaemon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLaunchDaemon-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLaunchDaemon-Linux-Debug-Debug-35d032675c46ccae56c7.json",
+					"name" : "UnrealLaunchDaemon-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLaunchDaemon-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLaunchDaemon-Linux-DebugGame-Debug-1f9d2ef4b112507abe50.json",
+					"name" : "UnrealLaunchDaemon-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLaunchDaemon-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLaunchDaemon-Linux-Shipping-Debug-f9171461a7efcd1090a9.json",
+					"name" : "UnrealLaunchDaemon-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLaunchDaemon-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLaunchDaemon-Linux-Test-Debug-57e71ca8f507d0120047.json",
+					"name" : "UnrealLaunchDaemon-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLightmass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLightmass-Debug-9cf00e314d9ae6d4f16b.json",
+					"name" : "UnrealLightmass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLightmass-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLightmass-Linux-Debug-Debug-020b0378a8618c57002d.json",
+					"name" : "UnrealLightmass-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLightmass-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLightmass-Linux-DebugGame-Debug-12586b556c798acd300b.json",
+					"name" : "UnrealLightmass-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLightmass-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLightmass-Linux-Shipping-Debug-45dd9f57e1a805c22dd8.json",
+					"name" : "UnrealLightmass-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealLightmass-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealLightmass-Linux-Test-Debug-cf7878592664f49721c5.json",
+					"name" : "UnrealLightmass-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealMultiUserServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealMultiUserServer-Debug-50aa3c252846d5b54559.json",
+					"name" : "UnrealMultiUserServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealMultiUserServer-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealMultiUserServer-Linux-Debug-Debug-293ee4eca88c4aed117e.json",
+					"name" : "UnrealMultiUserServer-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealMultiUserServer-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealMultiUserServer-Linux-DebugGame-Debug-985be08e2bf9957e5a3f.json",
+					"name" : "UnrealMultiUserServer-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealMultiUserServer-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealMultiUserServer-Linux-Shipping-Debug-2bafc856fee3e39de25a.json",
+					"name" : "UnrealMultiUserServer-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealMultiUserServer-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealMultiUserServer-Linux-Test-Debug-e4bdbda3c5a4e29e2675.json",
+					"name" : "UnrealMultiUserServer-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealPak::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealPak-Debug-f52e3340c42aada74a85.json",
+					"name" : "UnrealPak",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealPak-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealPak-Linux-Debug-Debug-5004b6106156a3c419d7.json",
+					"name" : "UnrealPak-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealPak-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealPak-Linux-DebugGame-Debug-687786de0c79b0643dfb.json",
+					"name" : "UnrealPak-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealPak-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealPak-Linux-Shipping-Debug-45c4860c383c54b06cb1.json",
+					"name" : "UnrealPak-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealPak-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealPak-Linux-Test-Debug-c2a0f847cb153480feb6.json",
+					"name" : "UnrealPak-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealRecoverySvc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealRecoverySvc-Debug-f6e9b0ce642b3d8d97a9.json",
+					"name" : "UnrealRecoverySvc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealRecoverySvc-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealRecoverySvc-Linux-Debug-Debug-6e9aa5bad4418466bb8a.json",
+					"name" : "UnrealRecoverySvc-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealRecoverySvc-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealRecoverySvc-Linux-DebugGame-Debug-2abed109981f4f63251c.json",
+					"name" : "UnrealRecoverySvc-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealRecoverySvc-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealRecoverySvc-Linux-Shipping-Debug-bf7ee81449b00f0e9dbe.json",
+					"name" : "UnrealRecoverySvc-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealRecoverySvc-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealRecoverySvc-Linux-Test-Debug-46ef6fceead3a6eb0ed5.json",
+					"name" : "UnrealRecoverySvc-Linux-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealVersionSelector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealVersionSelector-Debug-22c8993afd5a715048a4.json",
+					"name" : "UnrealVersionSelector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealVersionSelector-Linux-Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealVersionSelector-Linux-Debug-Debug-9e60ec0034545b617f5c.json",
+					"name" : "UnrealVersionSelector-Linux-Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealVersionSelector-Linux-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealVersionSelector-Linux-DebugGame-Debug-14a3f47533118de92158.json",
+					"name" : "UnrealVersionSelector-Linux-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealVersionSelector-Linux-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealVersionSelector-Linux-Shipping-Debug-873f2db1603cfcac60ed.json",
+					"name" : "UnrealVersionSelector-Linux-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnrealVersionSelector-Linux-Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnrealVersionSelector-Linux-Test-Debug-c50ceab94660ddfc4387.json",
+					"name" : "UnrealVersionSelector-Linux-Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aeri/freelance/gitcoin/AlgorandDemo/build",
+		"source" : "/home/aeri/freelance/gitcoin/AlgorandDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

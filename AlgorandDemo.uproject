@@ -9,5 +9,16 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "glTFForUE4",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/42c1de74ac44481bb4e80378863e04c8"
+		},
+		{
+			"Name": "GLTFImporter",
+			"Enabled": true
+		}
 	]
 }

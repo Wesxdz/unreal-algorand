@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
-using UnrealEngine.Framework;
 
 using Algorand;
 using Algorand.V2;
@@ -10,6 +9,8 @@ using Algorand.V2.Model;
 using Account = Algorand.Account;
 using System.Text;
 using System.Threading.Tasks;
+
+using UnrealEngine.Framework;
 
 // To update C# assembly run
 // dotnet publish "../Framework" --configuration Debug --framework net5.0 && dotnet publish --configuration Debug --framework net5.0 --output "../../../../../Managed/SDK"
@@ -63,6 +64,11 @@ namespace Game {
 				{
 					Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink, "Account has no value :(");
 				}
+				foreach (AssetHolding holding in accountInfo.Assets)
+				{
+					var asset = algodApiInstance.GetAssetByID(holding.AssetId);
+					accountActor.Invoke($"CreateAsset \"{asset.Params.Name}\" {holding.Amount}");
+				}
 			} finally
 			{
 				Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink, "Failed to create account");
@@ -110,12 +116,12 @@ namespace Game {
                 var lr = trans.LastRound;
                 var block = algodApiInstance.GetBlock(lr);
 
-                Console.WriteLine("Lastround: " + trans.LastRound.ToString());
-                Console.WriteLine("Block txns: " + block.Block.ToString());
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Lastround: " + trans.LastRound.ToString());
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Block txns: " + block.Block.ToString());
             }
             catch (ApiException e)
             {
-                Console.WriteLine("Exception when calling algod#getSupply:" + e.Message);
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Exception when calling algod#getSupply:" + e.Message);
             }
 
             TransactionParametersResponse transParams;
@@ -135,20 +141,20 @@ namespace Game {
             var signedTx = src.SignTransaction(tx);
 
 
-            Console.WriteLine("Signed transaction with txid: " + signedTx.transactionID);
+            Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Signed transaction with txid: " + signedTx.transactionID);
 
-            // send the transaction to the network
+            // // send the transaction to the network
             try
             {
                 var id = Utils.SubmitTransaction(algodApiInstance, signedTx);
-                Console.WriteLine("Successfully sent tx with id: " + id.TxId);
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Successfully sent tx with id: " + id.TxId);
                 var resp = Utils.WaitTransactionToComplete(algodApiInstance, id.TxId);
-                Console.WriteLine("Confirmed Round is: " + resp.ConfirmedRound);
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Confirmed Round is: " + resp.ConfirmedRound);
             }
             catch (ApiException e)
             {
                 // This is generally expected, but should give us an informative error message.
-                Console.WriteLine("Exception when calling algod#rawTransaction: " + e.Message);
+                Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink,"Exception when calling algod#rawTransaction: " + e.Message);
             }
 
 			Debug.AddOnScreenMessage(-1, 10.0f, Color.DeepPink, "Transacted");

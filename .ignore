@@ -1,3 +1,4 @@
+.git
 .kdev4
 .vscode
 Content
@@ -6,7 +7,6 @@ Intermediate
 Managed
 Saved
 Script
-Plugins/Algorand/.git
 Plugins/Algorand/.vscode
 Plugins/Algorand/Content
 Plugins/Algorand/Intermediate
